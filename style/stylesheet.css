@@ -1,0 +1,191 @@
+/*==================================
+            General
+====================================*/
+* {
+  box-sizing      : border-box;
+}
+
+body {
+  margin          : 0;
+  font-family     : "Lucida Grande";
+}
+
+a {
+  text-decoration : none;
+}
+
+.container {
+  max-width       : 1170px;
+  padding         : 0 15px;
+  margin          : 0 auto;
+}
+
+.clear {
+  clear           : left;
+}
+
+
+/*==================================
+            Header
+====================================*/
+
+.logo {
+  width           : 100px;
+  height          : 50px;
+  margin-top      : 10px;
+  float           : left;
+}
+
+.logoo {
+  width           : 50px;
+  height          : 50px;
+  margin-top      : 7px;
+  float           : left;
+}
+
+.brand {
+  color           : white;
+  font-size       : 15px;
+  float           : left;
+  margin-top      : 13px;
+  margin-left     : 10px;
+}
+
+header {
+  height          : 65px;
+  width           : 100%;
+  background-color: rgba(34, 86, 146, 0.9);
+  position        : fixed;
+  top             : 0;
+  z-index         : 10;
+}
+
+.header-left {
+  float           : left;
+}
+
+.header-right {
+  float           : right;
+  margin-right    : -25px;
+  overflow        : hidden;
+}
+
+.header-right a {
+  line-height     : 65px;
+  padding         : 0 25px;
+  color           : white;
+  display         : block;
+  float           : left;
+  transition      : all 0.5s;
+  font-family     : "Arial Black";
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color           : white;
+  float           : right;
+  font-size       : 27px;
+  padding         : 21px 0;
+}
+
+.header-right .menu-icon {
+  display         : none;
+}
+
+/*==================================
+            BAGIAN UTAMA
+====================================*/
+.top-wrapper {
+  padding         : 130px 0 100px 0;
+  background-image: url(../img/bg.jpg);
+  background-size : cover;
+  color           : black;
+  text-align      : center;
+}
+
+.utama {
+  float           : right;
+  width           : 250px;
+  height          : 350px;
+  margin-top      : -60px;
+}
+
+/*==================================
+            BAGIAN EXTRA 1
+====================================*/
+.lesson-wrapper {
+  padding-bottom  : 50px;
+  padding-left    : 5%;
+  padding-right   : 5%;
+  text-align      : center;
+}
+
+.heading {
+  padding-top     : 50px;
+  padding-bottom  : 50px;
+  color           : #5f5d60;
+}
+
+.lesson {
+  float           : left;
+  width           : 20%;
+}
+
+.lesson-icon {
+  position        : relative;
+}
+
+.lesson-icon p {
+  position        : absolute;
+  top             : 40%;
+  width           : 100%;
+  color           : white;
+}
+
+.text-contents {
+  width           : 80%;
+  display         : inline-block;
+  margin-top      : 15px;
+  font-size       : 15px;
+  color           : #b3aeb5;
+}
+
+/*==================================
+            BAGIAN EXTRA 2
+====================================*/
+.message-wrapper {
+  border-bottom   : 1px solid blue;
+  padding-bottom  : 50px;
+  text-align      : center;
+}
+
+.sertif {
+  width           : 800px; 
+  height          : 700px;
+}
+
+/*==================================
+            FOOTER
+====================================*/
+.container-foo {
+  padding         : 1px 15px 1px 35px;
+  background-color: rgba(34, 86, 146, 0.9);
+  margin          : 0 auto;
+}
+
+footer img {
+  float           : right;
+  padding-top     : 25px;
+}
+
+footer h1 {
+  font-size       : 20px;
+  color           : #fff;
+}
+footer p {
+  color           : #fff;
+  font-size       : 12px;
+}
