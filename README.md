@@ -4,4 +4,4 @@ Digital Talent Scholarship Kominfo menyediakan fasilitas untuk pelatihan Online 
 <br/>
 
 <h1> Screenshot tampilan website </h1>
-<img src="DTS_PROGATE.png" width="1000" alt="Screenshot"/> 
+<img src="DTS-PROGATE.png" width="1000" alt="Screenshot"/> 
